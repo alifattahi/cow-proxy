@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-RUN apt-get update && apt-get install curl -y
+RUN apt-get update && apt-get install -y curl 
 #installing Cow Proxy
 RUN curl -s -L -k git.io/cow | bash 
 
