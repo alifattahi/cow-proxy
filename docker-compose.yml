@@ -6,5 +6,5 @@ services:
     ports:
       - "8585:7777"
     volumes:
-      - "./config-file:~/.cow/rc"
+      - "./config-file:/.cow/rc"
     restart: always
